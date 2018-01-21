@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="example suite 1" verbose="1"  parallel="tests" thread-count="3">
+    <test name="Selenium Test with Chrome" parallel="true">
+        <classes>
+            <class name="TestNG.ChromeTest"/>
+        </classes>
+    </test>
+    <test name="Selenium Test with Firefox" parallel="true">
+        <classes>
+            <class name="TestNG.FirefoxTest"/>
+        </classes>
+    </test>
+    <test name="Selenium Test with IE" parallel="true">
+        <classes>
+            <class name="TestNG.IETest"/>
+        </classes>
+    </test>
+</suite>
