@@ -17,9 +17,9 @@ import org.testng.annotations.Test;
 
 
 public class IETest {
-    private static final String ACCESSKEY = "eyJ4cC51Ijo0LCJ4cC5wIjoyLCJ4cC5tIjoiTVRVd09UVXlNVFkwT1RFeE1nIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4MzE4ODU4NDQsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.KvI_SP4BjWcZ1WUHOJP9bAiwdv-UQfcTn59GM9rIvyk";
+    private static final String ACCESSKEY = "";
 
-    String CLOUDURL = "http://mastercloud/wd/hub/";
+    String CLOUDURL = "https://cloud.seetest.io/wd/hub/";
     String testName= "Selenium Test on IE";
     RemoteWebDriver driver;
 

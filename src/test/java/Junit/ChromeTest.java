@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ChromeTest {
     private static final String ACCESSKEY = "";
 
-    String CLOUDURL = "http://mastercloud/wd/hub/";
+    String CLOUDURL = "https://cloud.seetest.io/wd/hub/";
     String testName= "Selenium Test on Chrome";
     RemoteWebDriver driver;
 
