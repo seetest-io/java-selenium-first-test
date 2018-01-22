@@ -33,7 +33,7 @@ public class IETest {
         dc.setCapability("accessKey", ACCESSKEY);
         dc.setCapability("generateReport", true);
         dc.setCapability("testName", testName);
-
+        dc.setCapability("initialBrowserUrl", "https://www.google.com");
         driver = new RemoteWebDriver(new URL(CLOUDURL), dc);
     }
 
